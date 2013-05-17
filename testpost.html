@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title> HTTP Get test </title>
+  </head>
+
+  <body>
+
+
+    <form method="post" action="http://localhost:3000/">
+      Username: <input type="text" name="username"><br>
+      Age: <select name="age">
+	<option value="18">18</option>
+	<option value="19">19</option>
+	<option value="20">20</option>
+      </select><br>
+
+      Location: <input type="text" name="location"><br>
+
+      OS Type: <input list="OS">
+      <datalist id="OS">
+	<option value="Mac OSX">
+	<option value="Windows 7">
+	<option value="Windows XP">
+	<option value="Linux">
+      </datalist>
+      <br>
+
+      Sex: <br>
+      <input type="radio" name="sex" value="male">Male<br>
+      <input type="radio" name="sex" value="female">Female<br>
+      <input type="radio" name="sex" value="yes">Yes, please!<br>
+
+
+      Do you have any of these? <br>
+      <input type="checkbox" name="vehicle" value="bike">Bike - eco!<br>
+      <input type="checkbox" name="vehicle" value="car">Car - zoom, zoom!<br>
+      <input type="checkbox" name="vehicle" value="blah">blah<br>
+
+      <input type="submit">
+
+    </form>
+
+  </body>
+
+
+</html>
